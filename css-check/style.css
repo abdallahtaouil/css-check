@@ -1,0 +1,54 @@
+.nav-menu {
+     /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: space-around; /* Distribute items evenly along the horizontal axis */
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgba(255, 0, 0, 0.699);
+    
+    
+}
+
+.nav-menu li {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.nav-menu a {
+    text-decoration:underline;
+    color:rgb(242, 243, 243); /* Set the link color as desired */
+      font-family:  ;
+      font-size: larger;
+    width: 50px;
+background-color:black;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+body{
+background-image: url(pexels-pixabay-531880.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+a:hover{color:red}
+a:active{color: red;}
+
+
+p{color: gold}
+#para{padding-left: 500px;
+padding-right: 500px;}
+#para1{padding-left: 400px;
+    padding-right: 400px;}
+    #container{margin-top: 500px;
+    color:orangered;}
+#video{width:500px;
+    margin-left: 350px;
+    margin-top: 160px;
+}
+#audio{margin-top: 50px;
+margin-left: 450px;}
